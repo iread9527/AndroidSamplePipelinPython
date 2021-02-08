@@ -8,7 +8,7 @@ pipeline{
             steps {
                 sh 'mkdir -p AndroidSampleApp'
                 dir("AndroidSampleApp"){
-                    git branch:'master', url:'https://github.com/iread9527/AndroidSamplePipelinPython.git'
+                    git branch:'master', url:'git@gitee.com:iread9527/AndroidSampleApp.git'
                 }
             }
         }
